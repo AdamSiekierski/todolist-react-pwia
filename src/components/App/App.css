@@ -1,0 +1,22 @@
+.wrapper {
+  text-align: center;
+}
+
+.list {
+  border: 1px solid black;
+  padding: 16px;
+  margin: 32px auto;
+  max-width: 400px;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.todo-item > input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+}
+
+.todo-item {
+  display: block;
+}
